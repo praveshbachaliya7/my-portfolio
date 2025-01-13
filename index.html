@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravesh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Pravesh Portfolio</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Pravesh Bachaliya</span></h1>
+                <p>Frontend Developer</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="scroll-indicator"></div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate frontend developer with a keen eye for creating beautiful and functional websites. With expertise in HTML, CSS, and JavaScript, I bring designs to life with smooth animations and intuitive user experiences.</p>
+                    <div class="skills">
+                        <div class="skill">HTML5</div>
+                        <div class="skill">CSS3</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">Responsive Design</div>
+                        <div class="skill">Web Animation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Project 1">
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>A modern e-commerce platform built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Live Demo</a>
+                            <a href="#" class="btn small secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive portfolio website showcasing creative work.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small">Live Demo</a>
+                            <a href="#" class="btn small secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/praveshbachaliya7" class="social-link" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/praveshkumarbachaliya/" class="social-link" target="_blank">LinkedIn</a>
+            <a href="https://x.com/Pravesh302001" class="social-link" target="_blank">Twitter</a>
+        </div>
+        <p>&copy; 2024 Pravesh Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
